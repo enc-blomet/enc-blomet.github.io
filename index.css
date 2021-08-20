@@ -45,7 +45,7 @@ canvas {
   z-index: 999;
 }
 
-.navbar a {
+.navbar a{
   float: left;
   display: block;
   color: #f2f2f2;
@@ -53,6 +53,9 @@ canvas {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  text-align: center;
+  font-family: "arial", sans-serif;
+  transition: 1s;
 }
 
 .navbar a:hover {
@@ -196,8 +199,8 @@ main{
 	color: #ffffff;
 	text-decoration: none;
 	font-family: OpenSans,sans-serif, "arial";
-  text-transform: uppercase;
-  letter-spacing: .075em;
+  	text-transform: uppercase;
+  	letter-spacing: .075em;
 	transition: 1s;
 }
 .textHelm .text .link a:hover{
