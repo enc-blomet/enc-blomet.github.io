@@ -413,7 +413,7 @@ main{
 
 	.closeOpen{
 		display: flex;
-		position: absolute;
+		position: fixed;
 		top: 0;
 		width: 55px;
 		height: 55px;
