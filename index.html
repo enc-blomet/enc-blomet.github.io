@@ -14,7 +14,14 @@
 		<a href="exams">🎓 Examens</a>
 		<a href="travels">✈️ Voyages</a>
 		<a href="projects">🧰 Projets</a>
+
 	</header>
+
+	<div class="closeOpen" onclick="closeOpen(this)">
+		<div class="bar1"></div>
+		<div class="bar2"></div>
+		<div class="bar3"></div>
+	  </div>
 	<main>
 		<div class="logo">	
 			<div class="shadow">
@@ -106,6 +113,18 @@
     <script type="text/javascript" src="particules.js"></script>
     <script type="text/javascript" src="index.js"></script>
 	<script type="text/javascript">	
+
+	var IsOpen = false;
+	function closeOpen(x) {
+  		x.classList.toggle("change");
+		if(!IsOpen) {
+			IsOpen = true;
+			document.querySelector(".navbar").style.width = "calc(100% - 55px)";
+		}else{
+			IsOpen = false;
+			document.querySelector(".navbar").style.width = "0px";
+		}
+	}
 	var diapo = document.querySelector(".diapo")
 	var elements = document.querySelector(".elements")
 	var slides = Array.from(elements.children)
