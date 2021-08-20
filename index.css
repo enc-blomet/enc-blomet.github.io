@@ -351,8 +351,7 @@ main{
 }
 
 .end{
-	position: absolute;
-	bottom: 0;
+	margin-bottom: 0;
 }
 
 .closeOpen{
