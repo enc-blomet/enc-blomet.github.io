@@ -58,6 +58,11 @@ canvas {
   transition: 1s;
 }
 
+.navbar .home{
+	position: absolute;
+	left: 0;
+}
+
 .navbar a:hover {
   background: #ddd;
   color: black;
