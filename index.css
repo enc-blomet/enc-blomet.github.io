@@ -417,6 +417,7 @@ main{
 		top: 0;
 		width: 55px;
 		height: 55px;
+		background:  #f2f2f2;
 		z-index: 999;
 	}
 }
