@@ -389,8 +389,13 @@ main{
 	transform: rotate(45deg) translate(-8.75px, -10px);
 }
 
+@media only screen and (min-width: 900px) {
+	.navbar{
+		display: flex;
+	}
+}
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 900px) {
 	.navbar{
 		position: fixed;
 		top: 0;
