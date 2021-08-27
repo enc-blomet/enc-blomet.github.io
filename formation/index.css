@@ -148,6 +148,13 @@ main{
 	font-family: "arial", sans-serif;
 	color: #1B3258;
 }
+.textHelm .text ul{
+	text-align: justify;
+	font-weight: 300;
+	font-size: 25px;
+	font-family: "arial", sans-serif;
+	color: #1B3258;
+}
 .textHelm .text h1{
 	text-align: center;
 	font-weight: 200;
@@ -187,36 +194,22 @@ main{
 	z-index: 999;
 }
 
-.textHelm .text .link{
-  display: flex;
-	flex-direction: row;
-	justify-content: center;
-	align-items: center;	
-}
-.textHelm .text .link a{
-	width: auto;
-	height: 10px;
-	padding: 20px;
-	margin-left: 50px;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	border-radius: 10px;
-	background: #2D9CDB;
-	border: 2px solid #2D9CDB;
-	text-align: center;
-	color: #ffffff;
-	text-decoration: none;
-	font-family: OpenSans,sans-serif, "arial";
-  	text-transform: uppercase;
-  	letter-spacing: .075em;
-	transition: 1s;
-}
-.textHelm .text .link a:hover{
-	background: #00000000;
-	color: #2D9CDB;
-}
+  @media (-webkit-min-device-pixel-ratio:0) {
+	.textHelm .text a {
+	  background-color: #393939;
+	  background-image: -webkit-linear-gradient(left, skyblue 0%, orange 50%, transparent 50%);
+	  background-position: 100% 0;
+	  background-size: 200% 200%;
+	  color: transparent;
+	  -webkit-transition: .1s .2s;
+	  -webkit-background-clip: text;
+	}
+	.textHelm .text a:hover {
+	  background-position: 0 0;
+	  color: transparent;
+	  transition: .4s 0;
+	}
+  }
 
 .diapo{
 	width: 100%;
